@@ -2,7 +2,7 @@ import './Bubble.css';
 
 const Bubble = () => {
     return (
-        <div className="Bubble">Bubble</div>
+        <div className="Bubble"></div>
     )
 }
 

@@ -20,4 +20,17 @@ code {
 #root {
   height: 100%;
   text-align: center;
+  margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  #root {
+    width: 95%
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  #root {
+    width: 950px
+  }
 }
