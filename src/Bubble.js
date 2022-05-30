@@ -1,8 +1,10 @@
 import './Bubble.css';
 
-const Bubble = () => {
+const Bubble = (props) => {
     return (
-        <div className="Bubble"></div>
+        <div className="Bubble">
+            {props.children}
+        </div>
     )
 }
 
