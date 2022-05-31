@@ -1,0 +1,11 @@
+.Character {
+    flex: 2;
+    height: 100%;
+    width: 100%;
+}
+
+.Icon {
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
