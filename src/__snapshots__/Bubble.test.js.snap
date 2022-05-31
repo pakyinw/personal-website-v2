@@ -7,3 +7,11 @@ exports[`Bubble Bubble children testing 1`] = `
   <div />
 </div>
 `;
+
+exports[`Bubble Bubble snapshot testing 1`] = `
+<div
+  className="Bubble"
+>
+  <div />
+</div>
+`;

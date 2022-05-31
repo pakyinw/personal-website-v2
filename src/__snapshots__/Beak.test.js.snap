@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Beak Beak snapshot testing 1`] = `
+<div
+  className="Beak"
+>
+  Beak
+</div>
+`;

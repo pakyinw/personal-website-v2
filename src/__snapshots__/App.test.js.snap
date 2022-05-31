@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App App snapshot testing 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="Bubble"
+  />
+  <div
+    className="Beak"
+  >
+    Beak
+  </div>
+  <div
+    className="Character"
+  >
+    <div
+      className="Icon"
+      style={
+        Object {
+          "backgroundImage": "url()",
+        }
+      }
+    />
+  </div>
+</div>
+`;
