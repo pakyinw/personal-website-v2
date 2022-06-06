@@ -1,13 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Bubble Bubble children testing 1`] = `
-<div
-  className="Bubble"
->
-  <div />
-</div>
-`;
-
 exports[`Bubble Bubble snapshot testing 1`] = `
 <div
   className="Bubble"
