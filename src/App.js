@@ -1,14 +1,15 @@
-import Bubble from './Bubble.js'
-import Beak from './Beak.js'
-import Character from './Character.js'
+import { Routes, Route } from "react-router-dom"
+import Conversation from './conversation/Conversation' 
 import './App.css'
 
 const App = () => {
   return (
     <div className="App">
-      <Bubble></Bubble>
-      <Beak></Beak>
-      <Character></Character>
+      <Routes>
+        <Route path="/" element={ <Conversation/> } />
+        <Route path="home" element={ <Conversation/> } />
+        <Route path="conversation" element={ <Conversation/> } />
+      </Routes>
     </div>
   );
 }
