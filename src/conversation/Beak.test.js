@@ -1,10 +1,10 @@
-import Beak from './Beak.js'
 import renderer from 'react-test-renderer';
+import Beak from './Beak.js';
 
-describe ('Beak', ()=>{
-    const beak = renderer.create(<Beak><div/></Beak>).toJSON();
+describe('Beak', () => {
+  const beak = renderer.create(<Beak><div /></Beak>).toJSON();
 
-    test('Beak snapshot testing',()=>{
-        expect(beak).toMatchSnapshot();
-    })
-})
+  test('Beak snapshot testing', () => {
+    expect(beak).toMatchSnapshot();
+  });
+});

@@ -3,6 +3,13 @@
     "rules": {
       "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
     },
-    "ignorePatterns": ["src/__snapshots__/**", "**/*.test.js"]
-
-  }
+    "settings" : {
+      "import/resolver": {
+          "node": {
+              "extensions": [".js", ".jsx", ".ts", ".tsx"],
+              "moduleDirectory": ["node_modules", "src/"]
+          }
+      }
+    },
+    "ignorePatterns": ["node_modules/**","src/__snapshots__/**", "**/*.test.js","src/reportWebVitals.js","src/index.js"]
+}

@@ -1,10 +1,10 @@
-import Conversation from './Conversation.js'
 import renderer from 'react-test-renderer';
+import Conversation from './Conversation.js';
 
-describe ('Conversation', ()=>{
-    const conversation = renderer.create(<Conversation />).toJSON();
+describe('Conversation', () => {
+  const conversation = renderer.create(<Conversation />).toJSON();
 
-    test('Conversation snapshot testing',()=>{
-        expect(conversation).toMatchSnapshot();
-    })
-})
+  test('Conversation snapshot testing', () => {
+    expect(conversation).toMatchSnapshot();
+  });
+});
