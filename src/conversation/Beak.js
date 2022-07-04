@@ -1,9 +1,10 @@
+import React from 'react';
 import './Beak.css';
 
-const Beak = () => {
-    return (
-        <div className="Beak">Beak</div>
-    )
+function Beak() {
+  return (
+    <div className="Beak">Beak</div>
+  );
 }
 
 export default Beak;

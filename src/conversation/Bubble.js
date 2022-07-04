@@ -1,11 +1,18 @@
+import React from 'react';
+import PropTypes from 'prop-types';
 import './Bubble.css';
 
-const Bubble = (props) => {
-    return (
-        <div className="Bubble">
-            {props.children}
-        </div>
-    )
+function Bubble(props) {
+  const { children } = props;
+  return (
+    <div className="Bubble">
+      { children }
+    </div>
+  );
 }
+
+Bubble.propTypes = {
+  children: PropTypes.node.isRequired,
+};
 
 export default Bubble;
